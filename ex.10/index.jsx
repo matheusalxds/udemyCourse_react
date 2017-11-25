@@ -1,11 +1,10 @@
 import React from 'react'; //eslint-disable-line
 import ReactDOM from 'react-dom'; //eslint-disable-line
-import Field from './field';
+import ClassComponent from './classComponent';
 
 ReactDOM.render(
-  <Field
-    label="Counter"
-    initialValue={0}
+  <ClassComponent
+    name="Testando"
   />,
   document.getElementById('app'),
 );
